@@ -1,0 +1,4 @@
+home-pages.config.json
+.DS_Store
+node_modules/
+.pi/

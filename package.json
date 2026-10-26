@@ -1,0 +1,12 @@
+{
+  "name": "ob-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Home Pages（Obsidian）自定义组件源码集",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "deploy:dry": "node scripts/deploy.mjs --dry-run"
+  }
+}
