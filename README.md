@@ -16,7 +16,12 @@ Obsidian **Home Pages** 插件的自定义组件源码集。
 │   │   └── README.md         # 这个组件做什么、怎么配置
 │   ├── quick-note/
 │   ├── all-tasks/
-│   └── note-activity/
+│   ├── note-activity/
+│   ├── weekly-review/
+│   ├── thought-resurface/
+│   ├── reading/
+│   ├── quarter-goals/
+│   └── health-log/
 ├── templates/widget.js       # 新组件起点模板
 ├── scripts/
 │   ├── validate.mjs          # 校验组件契约（不碰库）
@@ -34,6 +39,11 @@ Obsidian **Home Pages** 插件的自定义组件源码集。
 | [`quick-note`](widgets/quick-note/README.md) | `user-quick-note` | 快速记录 | 带时间戳的流水记录，写进当天日记 | 4×6 |
 | [`all-tasks`](widgets/all-tasks/README.md) | `user-all-tasks` | 全部待办 | 汇总全库待办，可勾选、可限定来源 | 4×8 |
 | [`note-activity`](widgets/note-activity/README.md) | `user-note-activity` | 笔记活跃 | GitHub 风格活跃热力图 + 连续天数 | 6×6 |
+| [`weekly-review`](widgets/weekly-review/README.md) | `user-weekly-review` | 本周复盘 | 本周复盘状态 + 遗留事项，可直接勾选 | 6×6 |
+| [`thought-resurface`](widgets/thought-resurface/README.md) | `user-thought-resurface` | 闪念回顾 | 每天从旧日记里捞一条思考 | 4×6 |
+| [`reading`](widgets/reading/README.md) | `user-reading` | 在读清单 | 最近在读的书、进度和最后阅读时间 | 6×6 |
+| [`quarter-goals`](widgets/quarter-goals/README.md) | `user-quarter-goals` | 季度目标 | 当前季度计划的完成度和下一步 | 4×6 |
+| [`health-log`](widgets/health-log/README.md) | `user-health-log` | 健康打卡 | 体重 / 尿酸 / 血糖的最近记录与快速录入 | 4×6 |
 
 ## 日常用法
 
